@@ -22,8 +22,6 @@ const Greetings = () => {
       )) }
       <div className="links-section">
         <Link to="/">Go back</Link>
-&nbsp;&nbsp;
-        <Link to="new" reload>Add message</Link>
       </div>
     </div>
   );

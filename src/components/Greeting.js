@@ -1,21 +1,31 @@
-import React from 'react';
-import { PropTypes } from 'prop-types';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { getMessages } from '../redux/messages';
 
-const Greeting = (props) => {
-  const message = props;
-  const {
-    id, greeting,
-  } = message.message;
+const Greeting = () => {
+  const messages = useSelector((state) => state.messages);
+
+  const dispatch = useDispatch();
+
+  console.log(messages.message);
+
+  useEffect(() => {
+    if (messages.length === 0) {
+      dispatch(getMessages());
+    }
+  }, [dispatch, messages.length]);
+
   return (
-    <div className="single-message" key={id}>
-      <p className="message-info">{greeting}</p>
+    <div className="all-messages">
+      <div className="single-message" key={messages.message.id}>
+        <p className="message-info">{messages.message.greeting}</p>
+      </div>
+      <div className="links-section">
+        <Link to="/">Go back</Link>
+      </div>
     </div>
   );
-};
-
-Greeting.protoTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  message: PropTypes.object.isRequired,
 };
 
 export default Greeting;

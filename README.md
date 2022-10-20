@@ -1,75 +1,53 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Hello Rails Front-end
 
-# Project Name
+<img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 
-> Description the project.
+> This is the front-end part of an app built using react that receives an api from a rails application 
+> 
+It is created with [Create-React-App](https://github.com/facebook/create-react-app)
 
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+---
 
 
-## Getting Started
+## Get started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+```bash
+   git clone https://github.com/Theophileaseh/hello-react-front-end.git
+   cd into the folder by typing: cd hello-react-front-end
+```
 
+ ## Technology
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- React-Create-App
+- React-DOM
+- Redux
+- npm
+- Javascript ES6
+- Nodejs
+- HTML && CSS
+- React
 
 ## Authors
 
-👤 **Author1**
+👤 **Nwachan Theophile**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Theophileash](https://github.com/Theophileaseh)
+- Twitter: [@NwachanT](https://twitter.com/NwachanT)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/nwachan-theophile)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
+All contributions, issues and feature requests are welcome!
 
-Contributions, issues, and feature requests are welcome!
+1. Fork it (https://github.com/Theophileaseh/hello-react-front-end.git)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
+4. Push to the branch (git push origin [chosen-name])
+5. Create a new Pull Request
 
-Feel free to check the [issues page](../../issues/).
+## Show your support:
 
-## Show your support
+Give a :star: if you liked the app
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+# License
+This project is [MIT](LICENSE.md) licensed.

@@ -8,8 +8,6 @@ const Greeting = () => {
 
   const dispatch = useDispatch();
 
-  console.log(messages.message);
-
   useEffect(() => {
     if (messages.length === 0) {
       dispatch(getMessages());

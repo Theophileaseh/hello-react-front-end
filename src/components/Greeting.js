@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { getMessages } from '../redux/messages';
+import './Greeting.css';
 
 const Greeting = () => {
   const messages = useSelector((state) => state.messages);
